@@ -7,7 +7,10 @@ I created these projects to improve my skills in web development and learn real-
 # 🚀 Projects List
 
 * 🌤 Weather App
-* 📝 Todo App
+    🔗 https://pradeepsahu-dev.github.io/Frontend_Projects/Weather_webApp/
+
+* 📝 Task_Manager(Todo-App)
+    🔗 https://pradeepsahu-dev.github.io/Frontend_Projects/Task_Manager/
 
 
 

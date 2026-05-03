@@ -23,3 +23,7 @@ A simple weather app that shows real-time weather using API.
 1. Enter city name
 2. Click search button
 3. View weather details
+
+# 🌐 Live Demo
+
+🔗 https://pradeepsahu-dev.github.io/Frontend_Projects/Weather_webApp/

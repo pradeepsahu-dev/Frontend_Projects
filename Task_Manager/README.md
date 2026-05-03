@@ -20,3 +20,7 @@ A simple and clean todo app to manage daily tasks easily.
 1. Write your task
 2. Click "Add Task" or press Enter
 3. Manage your tasks easily
+
+# 🌐 Live Demo
+
+🔗 https://pradeepsahu-dev.github.io/Frontend_Projects/Task_Manager/
