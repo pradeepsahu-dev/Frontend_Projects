@@ -7,6 +7,7 @@ I created these projects to improve my skills in web development and learn real-
 # 🚀 Projects List
 
 * 🌤 Weather App
+* 📝 Todo App
 
 
 
