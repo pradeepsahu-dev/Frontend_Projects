@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.container{
+    width: 500px;
+    /* height: 400px; */
+    background-color: rgb(7, 105, 134);
+    font-family: 'Roboto', sans-serif;
+    border-radius: 15px;
+    padding-bottom: 20px;
+
+}
+
+h1{
+    
+    display: flex;
+    justify-content: center;
+    margin-block: 20px;
+}
+
+hr{
+    color: bisque;
+}
+.header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.inputdata{
+    border: 2px solid black;
+    margin-right: 120px;
+    padding: 8px;
+    border-radius: 20px;
+}
+input::placeholder{
+    text-align: center;
+    justify-content: center;
+    color: rgb(197, 125, 37);
+    font-family: cursive;
+
+}
+
+.header button{
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 30px;
+    color: cadetblue;
+    background-color: yellow;
+    margin-right: 30px;
+    box-shadow: 2px 2px 35px rgb(213, 232, 232);
+}
+
+ul li{
+    display: flex;
+    justify-content: start;
+    margin-left: 30px;
+    color: rgb(228, 179, 179);
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: cursive;
+    list-style: disc;
+    padding-left: 10px;
+    
+
+}
+
+.task-body{
+    border: 1px solid rgb(137, 180, 205) ;
+    display: block;
+    margin-top: 35px;
+    margin-left: 10px;
+    border-radius: 20px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.delete{
+    
+    margin-left: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding:  10px;
+    color: white;
+    background-color: red;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.inputdata{
+    box-shadow: -2px -2px 20px lightcyan;
+}
+
+.inputdata:hover{
+    box-shadow: 5px 5px 30px lightcyan, -5px -5px 30px lightcyan;
+}
+
+.header button:hover{
+    box-shadow:  -5px  5px 30px rgb(212, 173, 16);
+    transform: scale(1);
+    transition-delay: 0.2s;
+    transition-duration: 0.2s;
+    font-size: 15px;
+}
+
+.task-body{
+    box-shadow: 10px 10px 30px rgb(204, 253, 253), -10px -5px 20px lightcyan;
+}
