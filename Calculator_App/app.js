@@ -29,3 +29,24 @@ button.forEach((btn) =>{
     });
 });
 
+ 
+document.addEventListener("keydown", (e) =>{
+    let key =e.key;
+
+    if(key == "Enter"){
+        display.value = eval(display.value);
+    }
+
+    else if(key === "Backspace"){
+        display.value = display.value.slice(0, -1);
+    }
+
+    else if(key === "Escape"){
+        display.value= "";
+    }
+
+    else if("0123456789+-/." .includes(key)){
+        display.value += key;
+    }
+
+});

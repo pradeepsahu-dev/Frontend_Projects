@@ -12,6 +12,9 @@ I created these projects to improve my skills in web development and learn real-
 * 📝 Task_Manager(Todo-App)
     🔗 https://pradeepsahu-dev.github.io/Frontend_Projects/Task_Manager/
 
+*  🧮 Calculator App (CalcPro)  
+    🔗 https://pradeepsahu-dev.github.io/Frontend_Projects/Calculator_App/
+
 
 
 # 🛠 Tech Used
