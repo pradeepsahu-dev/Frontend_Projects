@@ -33,7 +33,7 @@ button.forEach((btn) =>{
 document.addEventListener("keydown", (e) =>{
     let key =e.key;
 
-    if(key == "Enter"){
+    if(key === "Enter"){
         display.value = eval(display.value);
     }
 
