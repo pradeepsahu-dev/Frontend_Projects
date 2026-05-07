@@ -1,3 +1,9 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -23,7 +29,7 @@ h1{
     font-weight: 700;
     font-family: cursive;
 }
-p{
+.move-text{
     font-size: 20px;
     font-weight: 600;
     margin-top: 150px;
@@ -46,4 +52,36 @@ button:active{
 
 
     background-color: rgb(159, 92, 5);
+}
+
+.display{
+    color:rgb(23, 22, 23) ;
+    /* background-color:purple ; */
+    border-radius: 30px;
+    background: linear-gradient(rgb(25, 143, 227),rgb(124, 124, 162),rgb(243, 222, 226));
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.result{
+    margin-top: 10px;
+    width: 400px;
+    height: 60px;
+    background-color: rgb(79, 68, 55);
+    border: 2px solid black;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    
+    
+}
+.result p{
+    margin: 0;
+    color: rgb(192, 194, 207);
+    font-size: 18px;
+     
+    margin-left: 40px;
+    margin-top: 3px;
+    
 }

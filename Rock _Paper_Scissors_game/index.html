@@ -7,16 +7,31 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>Rock Paper Scissors</h1>
-        <p>Now Choose Your Move:</p>
 
-        <div class="game_btn">
-            <button>Rock🪨</button>
-            <button>Paper📃</button>
-            <button>Scissors✂️</button>
+    <div class="main">
+       <div class="container">
+            <h1>Rock Paper Scissors</h1>
+            <p class="move-text">Now Choose Your Move:</p>
+
+          <div class="game_btn">
+             <button id="rock">Rock🪨</button>
+             <button id="paper">Paper📃</button>
+             <button id="scissor">Scissor✂️</button>
+          </div>
+
+        <h2 class="display"></h2>
         </div>
-    </div>
+
+
+           <div class="result">
+             <p class="userc"></p>
+             <p class="computerc"></p>
+           </div>
+
+     </div>
+
+
+   
 
     <script src="app.js" ></script>
 </body>
