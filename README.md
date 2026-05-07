@@ -16,7 +16,7 @@ I created these projects to improve my skills in web development and learn real-
     🔗 https://pradeepsahu-dev.github.io/Frontend_Projects/Calculator_App/
 
 * ✊ Rock Paper Scissors Game
-    🔗     
+    🔗 https://pradeepsahu-dev.github.io/Frontend_Projects/Rock_Paper_Scissors_game/ 
 
 
 
