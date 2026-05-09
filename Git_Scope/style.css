@@ -1,0 +1,151 @@
+body{
+    display: flex;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(75, 63, 62);
+    
+}
+
+.container{
+    background: linear-gradient(rgb(148, 148, 217),rgb(243, 169, 169),rgb(202, 166, 166));
+    height: 100px;
+    width: 600px;
+    border-radius: 10px;
+
+    transition: 0.3s ease;
+    
+    
+}
+.header{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.githubicon{
+    height: 40px;
+    width: 40px;
+    margin-top: -3px;
+    /* margin: 10px 0px 10px 5px; */
+    border-radius: 60px;
+}
+
+.input-data{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    font-size:15px;
+    height: 30px;
+    width: 240px;
+    color: rgb(252, 247, 249);
+    background-color: rgb(34, 22, 7);
+    border-radius: 20px;
+
+}
+.input-data::placeholder{
+    color: rgb(98, 87, 87);
+    font-family: cursive;
+
+}
+.search-btn{
+    font-size: 20px;
+    margin-right: px;
+    border-radius: 30px;
+    height: 40px;
+    width: 80px;
+    color: black;
+    background-color: darkgrey;margin-top: 10px;
+}
+
+.input-data:hover{
+    box-shadow: 2px 2px 6px rgb(245, 222, 222),-2px -2px 6px rgb(252, 230, 230);
+   
+}
+
+.search-btn:hover{
+    
+    transform: rotate(3deg);
+    box-shadow: 2px 2px 6px rgb(245, 222, 222),-2px -2px 6px rgb(252, 230, 230);
+
+    
+}
+
+.body-details{
+   display: flex;
+   
+}
+
+.profileimage{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 5px;
+    
+}
+.details{
+    align-items: flex-end;
+
+}
+
+h1{
+    margin-left: 150px;
+    margin-top: 50px;
+    color: rgb(40, 36, 32);
+}
+
+.userdetails{
+    display: flex;
+    margin-left: 70px;
+    font-size:20px;
+    color: rgb(247, 247, 246);
+    border-radius: 10px;
+}
+
+.userdata{
+    display: flex;
+    gap: 40px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.follow{
+    color: black;
+    cursor: pointer;
+}
+.repos{
+    color: rgba(2, 2, 212, 0.856);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.repo-container{
+    flex-direction: row;
+    gap: 2px;
+    height: 180px;
+    overflow-y: auto;
+    margin-top: 20px;
+
+}
+
+.repo-container::-webkit-scrollbar{
+    width: 5px;
+}
+
+.repo-container::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+}
+
+.active{
+
+    min-height: 650px;
+
+}
