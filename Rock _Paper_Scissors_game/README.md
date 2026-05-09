@@ -25,5 +25,4 @@ This project uses random computer choices and real-time result updates with a cl
 * Scissor beats Paper
 
 # 🔗 Live Demo
-
-🌐  https://pradeepsahu-dev.github.io/Frontend_Projects/Rock_Paper_Scissors_game/
+ https://pradeepsahu-dev.github.io/Frontend_Projects/Rock_Paper_Scissors_game/
